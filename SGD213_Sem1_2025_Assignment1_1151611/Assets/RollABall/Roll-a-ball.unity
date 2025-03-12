@@ -215,7 +215,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7703432}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &7703436
 Transform:
   m_ObjectHideFlags: 0
@@ -243,9 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6565ea6141ea34a6f8b1b7ec81398f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  f_horPlayAccel: 5
-  NumTotal: {fileID: 2023482906}
-  wintext: {fileID: 893736720}
+  horizontalAcceleration: 5
 --- !u!54 &7703438
 Rigidbody:
   m_ObjectHideFlags: 0
