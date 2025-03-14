@@ -13,8 +13,12 @@ public class PlayerController : MonoBehaviour {
 	// At the start of the game..
 	void Start ()	
 	{
+		
 		rb = GetComponent<Rigidbody>();
 		rb.AddForce(200, 0, 200);
+
+		// Stops the cube from rotating
+		rb.freezeRotation = true;
 	}
 
 	void FixedUpdate ()
