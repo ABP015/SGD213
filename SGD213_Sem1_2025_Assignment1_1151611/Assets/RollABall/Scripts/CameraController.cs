@@ -15,10 +15,6 @@ public class CameraController : MonoBehaviour {
 		offset = transform.position - player.transform.position;
 	}
 
-    void Update()
-	{ 
-	}
-
     // After the standard 'Update()' loop runs, and just before each frame is rendered..
     void LateUpdate ()
 	{
