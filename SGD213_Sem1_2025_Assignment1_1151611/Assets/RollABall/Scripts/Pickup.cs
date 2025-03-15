@@ -9,6 +9,7 @@ public class Pickup : MonoBehaviour
 
     private void Start()
     {
+		// Finds the objects that will be used to calculate score
 		score = FindObjectOfType<Score>();
     }
 
